@@ -1,0 +1,36 @@
+h1{ 
+    text-align: center;
+    color: black;
+    backgroud: teal;
+    padding: 5px;
+  }
+  body {
+    background: linear-gradient(to bottom right, blue);
+    padding: 15px;
+    font-family: Verdana;
+.column1 {
+}
+.column1 {
+	width: 48%;
+	float: left;
+}
+.photo {
+	width: 48%;
+	float: right;
+	max-width: 100%;
+	-webkit-box-shadow: inset 4px 4px 4px #939393;
+	box-shadow: inset 4px 4px 4px #939393;
+	transform: rotate(10deg);
+	text-shadow: 0px 0px #008080;
+}
+.photo img {
+	max-width: 100%;
+	float: right;
+	border-width: medium;
+	border-left-color: #008080;
+	border-right-color: #008080;
+	border-top-color: #008080;
+}
+.item p img {
+	float: right;
+}
